@@ -1,0 +1,77 @@
+<!-- Add XML Data -->
+<xml>
+
+<roori>
+<user1>
+<fname>honey</fname>
+<lname>bany</lname>
+</user1>
+<user2>
+<fname>honey2</fname>
+<lname>bany2</lname>
+</user2>
+
+<user3>
+<fname>honey3</fname>
+<lname>bany3</lname>
+</user3>
+
+<user4>
+<fname>honey</fname>
+<lname>bany</lname>
+</user4>
+
+</roori>
+  </xml>
+
+
+
+
+//*
+	{
+	USER @(FIRST: payload.fname, SECOUND: payload.lname):
+	{
+		FIRSTNAME: payload.fname
+		
+		
+	}
+	}
+*//	
+
+
+
+	
+	[{
+		"fname":"butch",
+		"lname":"babu"
+	},
+	{
+		"fname":"butch",
+		"lname":"babu"
+	},
+	
+	
+	{
+		"fname":"butch",
+		"lname":"babu"
+	}]
+
+
+
+
+
+<users>
+<user fname="MAX">
+<lname> annay</lname>
+</user>
+<user fname="MAX3">
+<lname> annay3</lname>
+</user>
+</users>
+
+
+
+
+
+	
+		
